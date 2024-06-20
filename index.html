@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <title>Prasunet_WD_02</title>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav_header">
+            <div class="nav_logo">
+                <a href="#">Watch</a>
+            </div>
+            <div class="nav_menu_btn" id="menu-btn">
+                <i class="ri-menu-line"></i>
+            </div>
+        </div>
+        <ul class="nav_links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#DigitalWatch">Digital Watch</a></li>
+            <li><a href="#StopWatch">Stop-Watch</a></li>
+            <li><a href="#StopWatch">Some-Watch</a></li>
+        </ul>
+        <div class="nav_watch">
+            <buttom class="btn"><i class="ri-timer-fill"></i></buttom>
+        </div>
+    </nav>
+
+    <div class="home" id="home">
+        <div class="home_content">
+            <h1>Time Mastery</h1>
+            <p>Experience the thrill of controlling time with our revolutionary stopwatch and digital watch combo.</p>
+            <button class="btn"> <a href="#StopWatch">Get Started</a></button>
+        </div>
+    </div>
+    <div class="Stopwatch" id="StopWatch">
+        <span class="main_text">Stop-Watch</span><br> <br><br><br>
+        <span class="digit" id="hr">00</span>
+        <span class="txt">HOURS</span>:
+        <span class="digit" id="min">00</span>
+        <span class="txt">MINTUES</span>:
+        <span class="digit" id="sec">00</span>
+        <span class="txt">SECONDS</span>:
+        <span class="digit" id="count">00</span>
+    <div class="watch_btns">
+        <button class="startBtn" id="start">START</button>
+        <button class="stopBtn" id="stop">STOP</button>
+        <button class="resetBtn" id="reset">RESET</button>
+        <button class="lapsBtn" id="laps">Laps</button>
+        <ul id="laps-list">
+            <li id="li"></li>
+        </ul>
+    </div>
+</div>
+    <div class="DigitalWatch" id="DigitalWatch">
+        <div class="clock_text">
+            <h1> Welcome to the Digital World.</h1>
+            <h3> The Current Time in IST is  </h3>
+        </div>
+        <div class="clock" id="clock"></div>
+        
+    </div>
+    <footer class="location">
+        <div class="location">
+          <span><i class="ri-map-pin-2-fill"></i></span>
+          OUR LOCATION
+        </div>
+        <div class="socials">
+          <span>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </span>
+        </div>
+      </footer>
+      <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
